@@ -1,0 +1,893 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+main{
+    justify-content: center;
+}
+.background{
+    background: linear-gradient(to bottom,#15eced,#08b7f2);
+}  
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header>ol{
+    display: flex;
+    margin-right: 100px;
+}
+header>ol>li{
+    margin: 40px;
+    list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+header>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+header>ol>li>a:hover{
+    text-decoration: underline;
+}
+.list1{
+    margin-left: 100px;
+    position: relative;
+    bottom: 5px;
+}
+.list1>li{
+    margin: 20px;
+    position: relative;
+    top: 30px;
+}
+/* scroll Button */
+.buttonUp{
+    position: relative;
+    left: 96%;
+    position: fixed;
+}
+.buttonUp:hover{
+    transition: 0.3s;
+    fill: #15eced;
+}
+/* header */
+header>ol>.img{
+    margin: 5px;
+    position: relative;
+    top: 20px;
+}
+header>ol>li>img{
+    width: 50px;
+    margin: 5px;
+    position: relative;
+
+}
+header>ol>hr{
+    margin: 0px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+/* content1 */
+.content1{
+    margin-top: 100px ;
+    text-align: center;
+    color: #fff;
+}
+.content1>h2{
+    font-size: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    word-spacing: 5px;
+    margin: 0px;
+}
+.content1>p{
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1>button{
+    width: 200px;
+    height: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.content1>.button1{
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    color: #233148;
+    transition: 0.5s;
+    margin-right: 10px ;
+}
+.content1>.button1:hover{
+    background-color: #c6c6c6;
+}
+.content1>.button2{
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+    background: none;
+    transition: 0.5s;
+}
+.content1>.button2:hover{
+    background-color: #fff;
+    color: #233148;
+}
+/* Marketing1 */
+.Marketing1{
+    height: 1200px;
+}
+.Marketing1>img{
+    position: relative;
+    top: 350px;
+    left: 350px;
+}
+/* box1 */
+.box1{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    line-height: 25px;
+    box-shadow: 10px 2px 5px #c2c2c2;
+    padding: 10px;
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+    color: #233148;
+    transition: 0.5s;
+}
+.box1:hover{
+    background-color: #e1e1e1;
+}
+.box1>h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box1>p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+/* box2 */
+.box2{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    line-height: 25px;
+    box-shadow: 10px 2px 5px #c2c2c2;
+    padding: 10px;
+    position: relative;
+    left: 1300px;
+    bottom: 700px;
+    color: #233148;
+    transition: 0.5s;
+}
+.box2:hover{
+    background-color: #e1e1e1;
+}
+.box2>h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box2>p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+/* box3 */
+.box3{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    line-height: 25px;
+    box-shadow: 10px 2px 5px #c2c2c2;
+    padding: 10px;
+    position: relative;
+    left: 800px;
+    bottom: 800px;
+    color: #233148;
+    transition: 0.5s;
+}
+.box3:hover{
+    background-color: #e1e1e1;
+}
+.box3>h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box3>p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+/* box4 */
+.box4{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    line-height: 25px;
+    box-shadow: 10px 2px 5px #c2c2c2;
+    padding: 10px;
+    position: relative;
+    left: 1200px;
+    bottom: 1000px;
+    color: #233148;
+    transition: 0.5s;
+}
+.box4:hover:hover{
+    background-color: #e1e1e1;
+}
+.box4>h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box4>p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+/* Marketing2 */
+.Marketing2{
+    background-color: whitesmoke;
+    padding: 50px;
+    height: 400px;
+}
+/* cont1 */
+.cont1{
+    width: 500px;
+    text-align: right;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #233148;
+    line-height: 25px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.cont1>h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.cont1>p{
+    opacity: 0.8;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.cont1>button{
+    width: 200px;
+    height: 50px;
+    background-color: #33d2fd; 
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.cont1>button:hover{
+    background-color:#29a8cc ;
+}
+/* cont2 */
+.cont2{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 2px 5px #c2c2c2;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    left: 900px;
+    bottom: 280px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.cont2:hover{
+    background-color: #33d2fd;
+    height: 80px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.cont2>.content>h4{
+    font-size: 15px;
+    color: #233148;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-flex;
+    margin: none;
+    margin-left: 20px;
+}
+/* Marketing3 */
+.Marketing3{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #233148;
+    height: 600px;
+}
+.Marketing3>img{
+    float: left;
+    height: 700px;
+}
+/* cont */
+.cont{
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+.cont>h2{
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+.cont>h3{
+    display: inline-flex;
+    margin: 5px;
+}
+.cont>p{
+    line-height: 30px;
+    opacity: 0.8;
+}
+/* Marketing4 */
+.Marketing4{
+    background:url(Img/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.Marketing4>img{
+    float: left;
+    position: relative;
+    right: 700px;
+    top: 100px;
+}
+/* cont3 */
+.cont3{
+    position: relative;
+    right: 500px;
+    top: 150px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+.cont3>h2{
+    font-size: 40px;
+    color: #233148;
+}
+.cont3>p{
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left: 1550px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.cont3>a>img{
+    position: relative;
+    left: 1550px;
+    bottom: 500px;
+}
+/* Marketing5 */
+.Marketing5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Marketing5>ul{
+    list-style: none;
+}
+.Marketing5>ul>li>a{
+    text-decoration: none;
+    color: #233148;
+}
+.Marketing5>ul>li>a:hover{
+    text-decoration: underline;
+}
+.Marketing5>ul>li{
+    margin: 10px;
+    opacity: 0.8;
+}
+.Marketing5>ul>.bold{
+    font-weight: bold;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+.footer1{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer1>h2{
+    font-size: 35px;
+    color: #233148;
+}
+.footer1>p{
+    opacity: 0.8;
+}
+.footer1>form{
+    display: inline-block;
+}
+.footer1>form>input{
+    margin-top: 40px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+.footer1>form>button{
+    width: 200px;
+    height: 40px;
+    color: #233148;
+    background-color: #08b7f2;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+    margin-left: 10px ;
+}
+.footer1>form>button:hover{
+    background-color: #049bcd;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #233148;
+    height: 100px;
+    align-items: center;
+}
+footer>.icons>a>svg{
+    margin-right: 20px ;
+}
+footer>.icons>a>svg:hover{
+    fill: #08b7f2;
+    transition: 0.3s; 
+}
+footer>.text>p{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+
+
+
+@media(max-width:2560px){
+    .waves{
+        position: relative;
+        bottom: 1px;
+    }
+    .cont3>a>img{
+        position: relative;
+        left: 0px;
+        bottom: -20px;
+    }
+    .cont3>p{
+        color: #ffffff;
+        font-size: 20px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+    /* marketing1 */
+    .Marketing1{
+        margin-left: 300px;
+    }
+    /* marketing2 */
+    .cont1{
+        margin-left: 400px;
+    }
+    .cont2{
+        margin-left: 300px;
+    }
+    /* marketing4 */
+    .Marketing4>img{
+        margin-left: 300px;
+    }
+}
+@media(max-width:1920px){
+    .Marketing1{
+        margin-left: 0px;
+    }
+    .cont1{
+        margin-left: 0px;
+    }
+    .cont2{
+        margin-left: 0px;
+    }
+    .Marketing4>img{
+        margin-left: 0px;
+    }
+    .waves{
+        position: relative;
+        bottom: 1px;
+    }
+    .cont3>a>img{
+        position: relative;
+        left: 1550px;
+        bottom: 500px;
+    }
+    .cont3>p{
+        position: relative;
+        bottom: 500px;
+        left: 1550px;
+        color: #fff;
+        font-size: 18px;
+    }
+}
+@media(max-width:1500px){
+    /* Marketing1 */
+    .Marketing1>img{
+        position: relative;
+        top: 350px;
+        left: 150px;
+    }
+    .box1{
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        bottom: 0px;
+    }
+    .box2{
+        display: inline-block;
+        position: relative;
+        left: 290px;
+        bottom: 0px;
+    }
+    .box3{
+        display: inline-block;
+        position: relative;
+        left: -35px;
+        bottom: -450px;
+    }
+    .box4{
+        display: inline-block;
+        position: relative;
+        left: 570px;
+        bottom: -50px;
+    }
+    /* Marketing2 */
+    .content2{
+        display: inline-block;
+        position: relative;
+        top: 300px;
+        right: 500px;
+    }
+    .cont1{
+        display: inline-block;
+        width: 400px;
+        margin: 0px;
+        position: relative;
+        left: 100px;
+        top: -50px;
+    }
+    .cont2{
+        position: relative;
+        left: 700px;
+        bottom: 300px;
+    }
+    /* Marketing3 */
+    .Marketing3>img{
+        height: 500px;
+        position: relative;
+        right: 100px;
+    }
+    .cont{
+        position: relative;
+        top: 100px;
+    }
+    /* Marketing4 */
+    .Marketing4>img{
+        width: 250px;
+        position: relative;
+        right: -200px;
+    }
+    .cont3{
+        display: inline-block;
+        position: relative;
+        right: -300px;
+        top: 80px;
+        padding: 30px;
+    }
+    .cont3>p{
+        position: relative;
+        left: 0px; 
+        bottom: 0px;
+    }
+    .cont3>a>img{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+@media(max-width:1100px){
+    /* Marketing1 */
+    .Marketing1{
+        height: 1000px;
+    }
+    .Marketing1>img{
+        width: 270px;
+        position: relative;
+        left: 100px;
+        top: 250px;
+    }
+    /* box1 */
+    .box1{
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+        font-size: 15px;
+        position: relative;
+        left: 130px;
+        bottom: 0px;
+    }
+    .box1>img{
+        width: 120px;
+        text-align: center;
+    }
+    /* box2 */
+    .box2{
+        display: inline-block;
+        margin-right: 0px;
+        width: 250px;
+        height: 300px;
+        font-size: 15px;
+        position: relative;
+        left: 190px;
+        bottom: 0px;
+    }
+    .box2>img{
+        width: 80px;
+    }
+    /* box3 */
+    .box3{
+        display: inline-block;
+        margin-right: 0px;
+        width: 250px;
+        height: 300px;
+        font-size: 15px;
+        position: relative;
+        left: 740px;
+        bottom: -30px;
+    }
+    .box3>img{
+        width: 80px;
+    }
+    /* box4 */
+    .box4{
+        display: inline-block;
+        margin-right: 0px;
+        width: 250px;
+        height: 300px;
+        font-size: 15px;
+        position: relative;
+        left: 130px;
+        bottom: -50px;
+    }
+    .box4>img{
+        width: 90px;
+    }
+    /* Marketing2 */
+    .Marketing2{
+        padding: 30px;
+    }
+    .content2{
+        display: inline-block;
+        position: relative;
+        top: 300px;
+        right: 500px;
+    }
+    .cont1{
+        display: inline-block;
+        width: 400px;
+        margin: 0px;
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+    .cont2{
+        width: 400px;
+        height: 40px;
+        position: relative;
+        left: 600px;
+    }
+    .cont2:hover{
+        height: 60px;
+    }
+    /* Marketing3 */
+    .Marketing3{
+        height: 400px;
+    }
+    .Marketing3>img{
+        height: 400px;
+        position: relative;
+        right: 100px;
+    }
+    .cont{
+        position: relative;
+        top: 50px;
+    }
+    .cont>h2{
+        font-size: 30px;
+        position: relative;
+        bottom: 30px;
+    }
+    .cont>p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    /* Marketing4 */
+    .Marketing4{
+        height: 500px;
+    }
+    .Marketing4>img{
+        width: 200px;
+        position: relative;
+        right: -200px;
+        top: 80px;
+    }
+    .cont3{
+        display: inline-block;
+        position: relative;
+        right: -300px;
+        top: 80px;
+        padding: 30px;
+    }
+    .cont3>h2{
+        font-size: 30px;
+    }
+    .cont3>p{
+        font-size: 15px;
+        position: relative;
+        left: 0px; 
+        bottom: 0px;
+    }
+    .cont3>a>img{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+}
+@media(max-width:800px){
+    /* header */
+    header>ol{
+        margin-right: 0px;
+    }
+    header>ol>li{
+        margin:20px;
+        margin-top: 30px;
+    }
+    .list1{
+        margin-left: 20px;
+        position: relative;
+        bottom: 10px;
+    }
+    .list1>li{
+        margin: 10px;
+        position: relative;
+        top: 25px;
+    }
+    .list1>li>img{
+        width: 40px;
+    }
+    /* content1 */
+    .content1>h2{
+        font-size: 40px;
+    }
+    .content1>p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .content1>button{
+        margin-top: 30px;
+    }
+    /* Marketing1 */
+    .Marketing1>img{
+        display: none;
+    }
+    .Marketing1{
+        height: 800px;
+    }
+    /* box1 */
+    .box1{
+        position: relative;
+        left: 100px;
+        bottom: -50px;
+    }
+    /* box2 */
+    .box2{
+        position: relative;
+        left: 135px;
+        bottom: -50px;
+    }
+    /* box3 */
+    .box3{
+        position: relative;
+        left: 100px;
+        bottom: -50px;
+    }
+    /* box4 */
+    .box4{
+        position: relative;
+        bottom: -80px;
+        left: 135px;
+    }
+    /* Marketing2 */
+    .Marketing2{
+        padding: 20px;
+    }
+    .cont1{
+        width: 200px;
+        position: relative;
+        top: 10px;
+    }
+    .cont1>h2{
+        font-size: 20px ;
+        margin-bottom: 10px;
+    }
+    .cont1>p{
+        font-size: 13px;
+    }
+    .cont1>button{
+        width: 180px;
+    }
+    .cont2{
+        width: 350px;
+    }
+    /* Marketing3 */
+    .Marketing3>img{
+        height: 300px;
+        position: relative;
+        bottom: 20px;
+    }
+    .cont>h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .cont>p{
+        margin: 0px;
+        position: relative;
+        top: 20px;
+        font-size: 10px;
+    }
+    /* Marketing4 */
+    .Marketing4>img{
+        position: relative;
+        right: -50px;
+    }
+    .cont3{
+        position: relative;
+        right: -40px;
+    }
+}
